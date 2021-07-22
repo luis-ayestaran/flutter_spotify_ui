@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 class SideMenu extends StatefulWidget {
+  
   SideMenu({Key? key}) : super(key: key);
 
   @override
@@ -21,7 +22,9 @@ class _SideMenuState extends State<SideMenu> {
           children: [
             Container(
               padding: EdgeInsets.all(16),
-              child: Image.asset('assets/images/spotify_logo.png'),
+              child: Image.asset(
+                'assets/images/spotify_logo.png',
+              ),
             )
           ],
         ),
