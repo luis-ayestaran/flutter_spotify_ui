@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_spotify_ui/screens/playlist_screen.dart';
 import 'package:flutter_spotify_ui/utils/responsive_screen.dart';
 import 'package:flutter_spotify_ui/widgets/widgets.dart';
 
@@ -22,6 +23,7 @@ class HomeScreen extends StatelessWidget {
                     //SideMenu
                     SideMenu(),
                     //PlaylistScreen
+                    PlaylistScreen(),
                   ],
                 ),
               ),
@@ -31,7 +33,7 @@ class HomeScreen extends StatelessWidget {
             Container(
               color: Colors.green,
               width: double.infinity,
-              height: 115,
+              height: 86,
               child: Row(
 
               ),
